@@ -30,7 +30,7 @@ SOLUTION
    sentence = "The fox is hungry."
    charCount = sentence.length //18
 3. To check the number of words in the sentences, we will:
-   i. use the split() method to break the sentences up but we will do it by breaking it up once we get to any empty space
+   i. use the split() method to remove the spaces in the  sentence,  but we will do it by breaking it up once we get to any empty space
    example: let words = sentence.split(" "); will give the following :
    the
    fox
