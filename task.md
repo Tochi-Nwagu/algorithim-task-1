@@ -48,12 +48,13 @@ SOLUTION
    iv. i++ (then loop over to the next letter until we are at the end of the sentence)
    to do this we will implement it as follows:
    first all initialize, check condition and increment:
-   <!-- for(let i = 0; i < sentence.length; i++){
-     let char = sentence[i].lowerCase() //we will convert all characters to lower case because A and a are not the same
-      //check if the character is a vowel using the IF Statement
-      if('aeiou'.includes(char)) { //check if the character is a vowel
-        vowelCount++; // if a vowel increase the vowel counter
-      }
-   } -->
+   Example:
+   //for(let i = 0; i < sentence.length; i++){
+   //let char = sentence[i].lowerCase() //we will convert all characters to lower case because A and a are not the same
+   //check if the character is a vowel using the IF Statement
+   //if('aeiou'.includes(char)) { //check if the character is a vowel
+   //vowelCount++; // if a vowel increase the vowel counter
+   // }
+   //} 
 
    in the above example we will have 4 vowels e, o, i, u
