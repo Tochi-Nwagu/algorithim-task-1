@@ -40,7 +40,7 @@ SOLUTION
 
    wordCount = words.length //4
    ii. then using the length property once again count the number of words in the sentence. in this example we will have 4 words in the sentence.
-   4.To check for vowels, we will use the "For Loop" to iterate through the sentence
+4. To check for vowels, we will use the "For Loop" to iterate through the sentence
    for(let i = 0; i < sentence.length; i++)
    i. i = 0 (initialise. we only do this once);
    ii. i < sentence.length (Condition, check if the position of the letter is less than the length of the sentence), if true check if it is a vowel.
